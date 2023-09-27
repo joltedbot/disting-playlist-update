@@ -1,12 +1,10 @@
+# Disting mk4 SD Card Playlist Manager
+## NOTE This is my version of awonak's dist-playlist code updated dependencies and fairly minimal code changes. All the real work is his.
 
-
-# NOTE This is my attempt to get awonak's dist-playlist code working with updated dependencies and minimal code changes in 2023. All the real work is his.
-
-
-## Disting mk4 SD Card Playlist Manager
------
 
 [Original awonak dist-update project](https://github.com/awonak/disting-playlist)
+
+----
 
 Desktop application for creating audio playlists for the [Expert Sleepers Disting mk4](http://www.expert-sleepers.co.uk/disting.html) v4.10.
 
@@ -16,6 +14,8 @@ With the Playlist Manager you can create playlist folders and add samples to tha
 
 
 ## To Use
+
+Requires: node.js, npm, & electron to run
 
 ```bash
 # Clone this repository
