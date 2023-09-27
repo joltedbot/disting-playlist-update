@@ -18,13 +18,11 @@ With the Playlist Manager you can create playlist folders and add samples to tha
 
 ## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
 ```bash
 # Clone this repository
-git clone https://github.com/awonak/disting-playlist
+git clone https://github.com/joltedbot/disting-playlist-update.git
 # Go into the repository
-cd disting-playlist
+cd disting-playlist-update
 # Install dependencies
 npm install
 # Run the app
