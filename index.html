@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://cdnjs.cloudflare.com http://fonts.googleapis.com https://fonts.gstatic.com 'nonce-af1f5737273a'">
+
     <title>Disting mk4 SD Card Playlist Manager</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -119,7 +121,7 @@
 
   </body>
 
-  <script>
+  <script nonce="af1f5737273a">
     require('./dist/renderer.js')
   </script>
 </html>
