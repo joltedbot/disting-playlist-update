@@ -1,13 +1,12 @@
 
 
-# NOTE This is my attempt to get Awonak's dist-playlist code working with updated dependencies and minimal code changes in 2023. All the real work is his.
-# It is entierly a work in progress and may never succeed. Don't expect anything from it at this point.
+# NOTE This is my attempt to get awonak's dist-playlist code working with updated dependencies and minimal code changes in 2023. All the real work is his.
 
 
 ## Disting mk4 SD Card Playlist Manager
 -----
 
-[Original awoknak dist-update project](https://github.com/awonak/disting-playlist)
+[Original awonak dist-update project](https://github.com/awonak/disting-playlist)
 
 Desktop application for creating audio playlists for the [Expert Sleepers Disting mk4](http://www.expert-sleepers.co.uk/disting.html) v4.10.
 
