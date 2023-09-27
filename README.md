@@ -1,6 +1,6 @@
 
 
-# NOTE This is my attempt to get Awonak's dist-playlist code working with updated dependencied and minimal code changes in 2023. All the real work is his.
+# NOTE This is my attempt to get Awonak's dist-playlist code working with updated dependencies and minimal code changes in 2023. All the real work is his.
 # It is entierly a work in progress and may never succeed. Don't expect anything from it at this point.
 
 
