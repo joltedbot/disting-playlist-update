@@ -57,7 +57,6 @@ ipcMain.on("playlist:submit", (e: any, name: string) => {
 
 // Handle show add sample dialog.
 ipcMain.on("sample:dialog", (e: any) => {
-  let files;
   (dialog.showOpenDialog(mainWindow, {
     filters: [
       { name: "Audio", extensions: ["wav"] },
@@ -65,11 +64,9 @@ ipcMain.on("sample:dialog", (e: any) => {
     ],
     properties: ["openFile", "multiSelections"],
   })).then(res => {
-    files = res;
+    let file = res;
+    mainWindow.webContents.send("samples:add", file.filePaths);
   });
-  if (files) {
-    mainWindow.webContents.send("samples:add", files);
-  }
 });
 
 // Handle write to SD card dialog.
@@ -81,11 +78,9 @@ ipcMain.on("write:dialog", (e: any) => {
       properties: ["openDirectory"],
       title: "Select your SD card drive to write playlists.",
     })).then(res => {
-      files = res;
+      let file = res;
+      mainWindow.webContents.send("write:filesystem", file.filePaths);
      });
-  if (files) {
-    mainWindow.webContents.send("write:filesystem", files);
-  }
 });
 
 // This method will be called when Electron has finished
