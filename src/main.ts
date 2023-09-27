@@ -10,6 +10,10 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     height: 800,
     width: 1200,
+    webPreferences: {
+      nodeIntegration: true,
+      contextIsolation: false,
+    },
   });
 
   // and load the index.html of the app.
@@ -49,8 +53,7 @@ ipcMain.on("playlist:submit", (e: any, name: string) => {
 
 // Handle show add sample dialog.
 ipcMain.on("sample:dialog", (e: any) => {
-  var files;
-  
+  let files;
   (dialog.showOpenDialog(mainWindow, {
     filters: [
       { name: "Audio", extensions: ["wav"] },
@@ -67,8 +70,7 @@ ipcMain.on("sample:dialog", (e: any) => {
 
 // Handle write to SD card dialog.
 ipcMain.on("write:dialog", (e: any) => {
-  var files;
-
+  let files;
   (dialog.showOpenDialog(mainWindow,
     {
       buttonLabel: "Write to SD card",

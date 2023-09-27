@@ -4,6 +4,7 @@
   "description": "A minimal Electron application written with Typescript",
   "scripts": {
     "build": "tsc",
+    "help": "tsc -h",
     "watch": "tsc -w",
     "lint": "tslint -c tslint.json -p tsconfig.json",
     "start": "npm run build && electron ./dist/main.js"
@@ -20,11 +21,13 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
+    "@types/electron": "^1.6.10",
     "electron": "^26.2.2",
     "typescript": "^5.2.2"
   },
   "dependencies": {
     "electron-log": "^4.4.8",
-    "npm": "^10.1.0"
+    "npm": "^10.1.0",
+    "tslint": "^6.1.3"
   }
 }
