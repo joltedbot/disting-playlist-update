@@ -15,7 +15,7 @@ With the Playlist Manager you can create playlist folders and add samples to tha
 
 ## To Use
 
-Requires: node.js, npm, & electron to run
+Requires the current version of Node.js installed on your computer to function (built and tested against v20.7.0)
 
 ```bash
 # Clone this repository
