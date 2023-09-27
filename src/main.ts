@@ -64,7 +64,7 @@ ipcMain.on("sample:dialog", (e: any) => {
     ],
     properties: ["openFile", "multiSelections"],
   })).then(res => {
-    let file = res;
+    const file = res;
     mainWindow.webContents.send("samples:add", file.filePaths);
   });
 });
@@ -78,7 +78,7 @@ ipcMain.on("write:dialog", (e: any) => {
       properties: ["openDirectory"],
       title: "Select your SD card drive to write playlists.",
     })).then(res => {
-      let file = res;
+      const file = res;
       mainWindow.webContents.send("write:filesystem", file.filePaths);
      });
 });
