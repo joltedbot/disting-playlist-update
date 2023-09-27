@@ -32,6 +32,10 @@ function createPlaylistWindow() {
   playlistWindow = new BrowserWindow({
     height: 200,
     width: 300,
+    webPreferences: {
+      nodeIntegration: true,
+      contextIsolation: false,
+    },
   });
   playlistWindow.loadFile(path.join(__dirname, "../add_playlist.html"));
   playlistWindow.on("closed", () => {
