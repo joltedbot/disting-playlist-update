@@ -1,5 +1,5 @@
 # Disting mk4 SD Card Playlist Manager
-## NOTE This is my version of awonak's dist-playlist code updated dependencies and fairly minimal code changes. All the real work is his.
+## NOTE This is my version of awonak's dist-playlist but with updated dependencies and fairly minimal code changes to get it working again. All the real work is his.
 
 
 [Original awonak dist-update project](https://github.com/awonak/disting-playlist)
