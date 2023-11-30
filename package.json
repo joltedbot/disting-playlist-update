@@ -32,6 +32,6 @@
   "dependencies": {
     "electron-log": "^4.4.8",
     "eslint": "^8.51.0",
-    "npm": "^10.1.0"
+    "npm": "^10.2.2"
   }
 }
