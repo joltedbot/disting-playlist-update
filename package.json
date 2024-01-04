@@ -24,14 +24,14 @@
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
     "electron": "^26.2.2",
-    "eslint": "^8.51.0",
+    "eslint": "^8.56.0",
     "eslint-plugin-jsdoc": "^46.8.2",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "typescript": "^5.2.2"
   },
   "dependencies": {
     "electron-log": "^4.4.8",
-    "eslint": "^8.51.0",
+    "eslint": "^8.52.0",
     "npm": "^10.2.2"
   }
 }
